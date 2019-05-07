@@ -1,0 +1,107 @@
+Q. Which of the given statement will ensure that each resource is closed at the end of statement?
+1). try with resource
+2). call to close() function on the resource
+3). try with resource and finally
+4). try with catch
+	Solution :
+option [1] is correct
+Attempted :
+option [4] is attempted
+
+
+Q. What is the output of the following program?
+
+class Test {
+public static void main(String[] args) {
+try {
+doMath(5);
+System.out.print("hi");
+}
+finally { System.out.println(" from finally"); }
+}
+public static void doMath(int den) {
+int num = 7 / den;
+}
+}          
+1). hi from finally
+2). hi
+from finally
+3). prints hi from finally 2 times
+4). None of the above
+Solution :
+option [1] is correct
+Attempted :
+option [2] is attempted
+
+Q. public class Demos {
+        public static void main(String[] args) {
+       int arr[5]={1,2,3,4,5};
+        for(int ele:arr){
+        System.out.print(str);}
+}
+What will be the output of above code?
+1). 12345
+2). no output
+3). ArrayIndexOutOfBounds Exception
+4). Compilation Error
+Solution :
+option [4] is correct
+Attempted :
+option [4] is attempted
+
+Q. public class Test{
+        public static void main(String[] args){
+                int[] a = new int[0];
+                System.out.print(a.length);
+        }
+}
+1). 1
+2). 0
+3). Compilation error, arrays cannot be initialized to zero size.
+4). Compilation error, it is a.length() not a.length
+Solution :
+option [2] is correct
+Attempted :
+option [1] is attempted
+
+Q. __________is raised if I do not provide the String array as the argument to the main method.
+1). NullPointerException
+2). IllegalAccessException
+3). NoSuchMethodError
+4). None of the above 
+Solution :
+option [3] is correct
+Attempted :
+option [1] is attempted
+
+Q. class ArrayDemo
+{
+public static void main(String []args){
+String str = "Hello World";
+int []arr = {1,2,3,4,5};
+display(arr,str);
+}
+public static void display(int …arr,String str)
+{
+for(int num:arr){System.out.println(num);}
+System.out.println(str);
+}
+}
+1). 12345Hello World
+2). Hello World
+3). NumberFormatException
+4). Compilation Error
+Solution :
+option [4] is correct
+Attempted :
+option [1] is attempted
+
+Q. In Java arrays are ___________.
+1). objects
+2). object references
+3). primitive data type
+4). All of the above
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted
