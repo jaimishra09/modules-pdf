@@ -1,0 +1,156 @@
+Q. Which of the given options are implementation of BeanFactory?
+1). XMLBeanFactory
+2). DefaultListableBeanFactory
+3). JNDIBeanFactory
+4). StaticBeanFactory
+Solution :
+option [1,2] are correct
+Attempted :
+option [1,2,3,4] are attempted
+
+
+Q. Which of the given statement is true about spring boot?
+1). Dynamically wires up beans
+2). No requirement of XML configuration
+3). Increases the size of build file
+4). Increases the boiler plate code
+Solution :
+option [1,2] are correct
+Attempted :
+option [1,2] are attempted
+
+
+Q. <bean id="currencyConverter" class="training.Spring.CurrencyConverterImpl">
+ <property name="exchangeRate" value="44.50" /></bean>
+Which type of dependency injection is used in above code?
+1). Setter Injection
+2). Constructor Injection
+3). Interface Injection
+4). No dependency injection is used
+Solution :
+option [1] is correct
+Attempted :
+option [2] is attempted
+
+
+Q. Which of the given below are the layers of Spring IO platform? 
+1). Execution
+2). Foundation
+3). Co-ordination
+4). All of the above
+Solution :
+option [4] is correct
+Attempted :
+option [4] is attempted
+
+
+Q. Which of the given option represents loose coupling?
+1). public class Person
+{
+private Address address;
+public Person()
+{
+this.address = new Address();
+}
+}
+2). public class Person
+{
+private Address address;
+public Person(Address address)
+{
+this.address = address; 
+}
+}
+3). Both 0 and 1
+4). none of the above
+Solution :
+option [2] is correct
+Attempted :
+option [2] is attempted
+
+
+Q. Which implementation of 'Application Context' loads context definition from an XML file contained within a web application           
+1). ClassPathXmlApplicationContext
+2). FileSystemXmlApplicationContext
+3). XmlWebApplicationContext
+4). none of the above
+Solution :
+option [3] is correct
+Attempted :
+option [1] is attempted
+
+
+
+Q. <bean id="datasource" class="com.spring.ConnectionDataSource">
+ <property name="url"><value>${url}</value></property>
+ <property name="driver"><value>${driver}</value></property>
+ <property name="username"><value>${username}</value></property>
+ <property name="password"><value>${password}</value></property>
+</bean>
+
+<bean id="placeHolderConfig" 
+class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+ <property name="_______"><value>_________</value></property>
+</bean>
+
+What must go into the blanks?
+1). '1-base 2-properties
+2). 1-location 2-properties file name
+3). '1-resource 2-properties file name
+4). 1-location 2-property
+Solution :
+option [2] is correct
+Attempted :
+option [2] is attempted
+
+
+
+Q. Which element in the spring configuration file is used to tell the Spring container about a class and how it should be configured.            
+1). <bean>
+2). <id>
+3). <class>
+4). <beans>
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted
+
+
+Q. Which of the given below are the layers of Spring IO platform? 
+1). byName
+2). byType
+3). byId
+4). autodetect
+Solution :
+option [3] is correct
+Attempted :
+option [2] is attempted
+
+
+Q. Look at the bean below. 
+
+public class ExampleBean {
+
+    private int years;             
+    private String ultimateAnswer;
+
+    public ExampleBean(int years, String ultimateAnswer) {
+        this.years = years;
+        this.ultimateAnswer = ultimateAnswer;
+    }
+}
+
+What would be the value of index, to instantiate the bean using constructor injection?
+
+<bean id="exampleBean" class="examples.ExampleBean">
+  <constructor-arg index="_____"><value>7500000</value></constructor-arg>
+  <constructor-arg index="_____"><value>42</value></constructor-arg>
+</bean>
+1). '0 and 1
+2). '1 and 2
+3). Start-index value does not matter
+4). There is no attribute called index with the <constructor-arg> element
+Solution :
+option [1] is correct
+Attempted :
+option [2] is attempted

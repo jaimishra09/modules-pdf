@@ -1,0 +1,188 @@
+Q. Which of these samples of code will remove the underline from hyperlinks?
+1). a{
+     list-style-type: none;
+     }
+2). a {
+     text-decoration: no-underline;
+     }
+3). a {
+     text-decoration: none;
+     }
+4). a{
+     text-style-type: no-underline;
+     }
+Solution :
+option [3] is correct
+Attempted :
+option [3] is attempted
+
+
+
+
+
+Q. How to select the input tag  element having attribute name to apply the CSS style?
+1). input[name]
+2). input name
+3). input{name}
+4). :input[name]
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted
+
+
+
+
+
+
+Q. A style format can be applied to the tags by using __________.
+1). <format>
+2). <style>
+3). <decoration>
+4). Any of the above can be used
+Solution :
+option [2] is correct
+Attempted :
+option [4] is attempted
+
+
+
+
+
+Q. What of the following statement is correct about the  given selector statement?
+Div.p
+1). Selects all the div tag and p tags
+2). Selects all the div tag having class "P"
+3). Selects the div tag having id "p"
+4). Selects all the p tags inside div tag
+Solution :
+option [2] is correct
+Attempted :
+option [2] is attempted
+
+
+
+
+Q. Which of the following will display the text box with a back ground in blue color?
+1). <!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+text{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input id="name" type="text" name="name"/>
+</body>
+</html>
+2). <!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+input{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input type="text" name="name"/>
+</body>
+</html>
+3). <!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+type{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input type="text"  name="name"/>
+</body>
+</html>
+4). <!DOCTYPE html>
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input id="name" type="text" style="{background-color:blue;}" name="name"/>
+</body>
+</html>
+Solution :
+option [2] is correct
+Attempted :
+option [4] is attempted
+
+
+
+
+
+
+Q. How to add comment in the style sheet?
+1). <!--   comment -->
+2). /*   comment  */
+3). //
+4). you can not give comment in style sheet
+Solution :
+option [2] is correct
+Attempted :
+option [1] is attempted
+
+
+
+
+
+
+
+Q. Which of the following will correctly select the input tag Element which has the focus?
+1). input[name]
+2). input:focus
+3). :focus
+4). input:autofocus
+Solution :
+option [2] is correct
+Attempted :
+option [4] is attempted
+
+
+
+
+
+Q. Which of the following HTML5 element is used to display bulleted list ?
+1). <ul>
+2). <ol>
+3). <dl>
+4). <dd>
+Solution :
+option [1] is correct
+Attempted :
+option [3] is attempted
+
+
+
+
+
+Q. Choose the following attribute which can be used to specify image as background of an element?
+1). background-color
+2). background-attachment
+3). background-image
+4). background-audio
+Solution :
+option [1,2,3] are correct
+Attempted :
+option [2,3] are attempted
+
+
+
+
+
+Q. Which of the following attribute can be used to specify image as background of an element?
+1). background-image
+2). background-img
+3). image
+4). img
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted
